@@ -1,7 +1,11 @@
+#!/usr/bin/env python3
+# coding:utf-8
+
 import requests
 from lxml import etree
 import pandas as pd
 from threading import Thread
+
 
 def parser(url: str):
     headers = {
